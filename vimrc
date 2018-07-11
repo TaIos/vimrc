@@ -49,6 +49,10 @@ set directory=/home/slarty/.vim/swap
 
 "MACROS##########################################################################
 
+"MAP#############################################################################
+
+" creates basic C++ bone (like "Hello world" but without it)
+map <Insert> i#include <iostream><CR><CR>using namespace std;<CR><CR>int main()<CR>{<CR><CR>return 0;<CR>}<CR><Esc>3ki<Esc>
 
 "GARBAGE#########################################################################
 
