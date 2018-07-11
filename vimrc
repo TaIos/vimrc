@@ -30,6 +30,9 @@ set showcmd
 " keep cursor centered vertically on the screen
 set scrolloff=5
 
+" use colors that look good with black background 
+set bg=dark
+
 "BACKUP_FILES####################################################################
 
 " store backups of files
