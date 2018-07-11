@@ -1,62 +1,67 @@
 "COMMANDS#########################################################################
 
-" display line number
-set number 
+" Turn on line numbering
+set number
 
-" show the cursor position
+" Show the line and column number of the cursor position
 set ruler
 
-" show parts of the text in another font or color
+" Show parts of the text in another font or color
 syntax on
 
-" indent for supported languages
+" Indent for supported languages
 filetype indent plugin on 
 
-" allows switching between buffers without saving
+" Allows switching between buffers without saving
+" (once a buffer is loaded into memory, it stays in memory)	
 set hidden 
 
-" pretty tab autocompletion
+" Display completion matches on status line
 set wildmenu 
 
-" increment search
-set is 
+" Enable incremental searching
+set incsearch
 
-" highlight all search pattern matches
-set hls 
+" Highlight search matches
+set hlsearch
 
-" show (partial) command in the last line of the screen.
+" Display the incomplete commands in the bottom right-hand side of screen
 set showcmd
 
-" keep cursor centered vertically on the screen
+" Show a few lines of context around the cursor
 set scrolloff=5
 
-" use colors that look good with black background 
+" Use colors that look good with black background 
 set bg=dark
 
-" set colorscheme
+" Specifiy a color scheme
 color ron
+
+" Make a tab equal to 4 spaces
+set shiftwidth=4
+set tabstop=4
 
 "BACKUP_FILES####################################################################
 
-" store backups of files
+" Turn on file backups
 set backup
 
-" directory to store backup files
+" Directory to store backup files
 set backupdir=/home/slarty/.vim/backup
 
-" directory to store .swp and other files
+" Directory to store .swp and other files
 set directory=/home/slarty/.vim/swap
 
 "MACROS##########################################################################
 
 "MAP#############################################################################
 
-" creates basic C++ bone (like "Hello world" but without it)
+" Creates basic C++ bone (like "Hello world" but without it)
 map <Insert> i#include <iostream><CR><CR>using namespace std;<CR><CR>int main()<CR>{<CR><CR>return 0;<CR>}<CR><Esc>3ki<Esc>
 
 "GARBAGE#########################################################################
 
-" indentation
+" Indentation
 "  set autoindent
 "  set cindent
 "  inoremap { {<CR>}<up><end><CR>
