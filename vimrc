@@ -33,6 +33,9 @@ set scrolloff=5
 " use colors that look good with black background 
 set bg=dark
 
+" set colorscheme
+color ron
+
 "BACKUP_FILES####################################################################
 
 " store backups of files
