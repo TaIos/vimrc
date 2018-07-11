@@ -1,4 +1,4 @@
-" COMMANDS#########################################################################
+"COMMANDS#########################################################################
 
 " display line number
 set number 
@@ -30,11 +30,21 @@ set showcmd
 " keep cursor centered vertically on the screen
 set scrolloff=5
 
+"BACKUP_FILES####################################################################
 
-" MACROS##########################################################################
+" store backups of files
+set backup
+
+" directory to store backup files
+set backupdir=/home/slarty/.vim/backup
+
+" directory to store .swp and other files
+set directory=/home/slarty/.vim/swap
+
+"MACROS##########################################################################
 
 
-" GARBAGE#########################################################################
+"GARBAGE#########################################################################
 
 " indentation
 "  set autoindent
