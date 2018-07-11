@@ -23,6 +23,9 @@ set hls
 " show (partial) command in the last line of the screen.
 set showcmd
 
+" keep cursor centered vertically on the screen
+set scrolloff=5
+
 " indentation
 "  set autoindent
 "  set cindent
