@@ -1,8 +1,12 @@
+" COMMANDS#########################################################################
+
+" display line number
 set number 
 
 " show the cursor position
 set ruler
 
+" show parts of the text in another font or color
 syntax on
 
 " indent for supported languages
@@ -26,11 +30,13 @@ set showcmd
 " keep cursor centered vertically on the screen
 set scrolloff=5
 
-" indentation
-"  set autoindent
-"  set cindent
-"  inoremap { {<CR>}<up><end><CR>
 
 " MACROS##########################################################################
 
 
+" GARBAGE#########################################################################
+
+" indentation
+"  set autoindent
+"  set cindent
+"  inoremap { {<CR>}<up><end><CR>
