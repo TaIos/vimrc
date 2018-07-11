@@ -1,33 +1,33 @@
 set number 
 
-"show the cursor position
+" show the cursor position
 set ruler
 
 syntax on
 
-"indent for supported languages
+" indent for supported languages
 filetype indent plugin on 
 
-"allows switching between buffers without saving
+" allows switching between buffers without saving
 set hidden 
 
-"pretty tab autocompletion
+" pretty tab autocompletion
 set wildmenu 
 
-"increment search
+" increment search
 set is 
 
-"highlight all search pattern matches
+" highlight all search pattern matches
 set hls 
 
-"show (partial) command in the last line of the screen.
+" show (partial) command in the last line of the screen.
 set showcmd
 
-"indentation
-" set autoindent
-" set cindent
-" inoremap { {<CR>}<up><end><CR>
+" indentation
+"  set autoindent
+"  set cindent
+"  inoremap { {<CR>}<up><end><CR>
 
-"MACROS##########################################################################
+" MACROS##########################################################################
 
 
