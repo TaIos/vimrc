@@ -57,8 +57,10 @@ set directory=/home/slarty/.vim/swap
 "MAP#############################################################################
 
 " Creates basic C++ bone (like "Hello world" but without it)
-map <Insert> i#include <iostream><CR><CR>using namespace std;<CR><CR>int main()<CR>{<CR><CR>return 0;<CR>}<CR><Esc>3ki<Esc>
+map <F2> i#include <iostream><CR><CR>using namespace std;<CR><CR>int main()<CR>{<CR><CR>return 0;<CR>}<CR><Esc>3ki<Esc>
 
+" Insert python3 hash-bang
+map <Insert> ggO#!/bin/python3<CR><Esc>
 "GARBAGE#########################################################################
 
 " Indentation
