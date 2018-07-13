@@ -61,6 +61,10 @@ map <F2> i#include <iostream><CR><CR>using namespace std;<CR><CR>int main()<CR>{
 
 " Insert python3 hash-bang
 map <Insert> ggO#!/bin/python3<CR><Esc>
+
+" Insert Python"s guard: if __name__ == "__main__"
+map <Del> 0iif __name__ == "__main__":<Esc>omain()<CR><Esc>
+
 "GARBAGE#########################################################################
 
 " Indentation
