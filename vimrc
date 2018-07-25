@@ -22,8 +22,8 @@ set wildmenu
 " Enable incremental searching
 set incsearch
 
-" Highlight search matches
-set hlsearch
+" Disable highlight search matches
+set nohlsearch
 
 " Display the incomplete commands in the bottom right-hand side of screen
 set showcmd
