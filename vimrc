@@ -1,3 +1,8 @@
+"VARIABLES########################################################################
+
+" Set leaderkey
+let mapleader='\'
+
 "COMMANDS#########################################################################
 
 " Turn on line numbering
@@ -64,6 +69,9 @@ map <Insert> ggO#!/bin/python3<CR><Esc>
 
 " Insert Python"s guard: if __name__ == "__main__"
 map <Del> 0iif __name__ == "__main__":<Esc>omain()<CR><Esc>
+
+" Insert Java's 'System.out.println('
+map <leader>p oSystem.out.println(
 
 "GARBAGE#########################################################################
 
