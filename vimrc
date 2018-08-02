@@ -73,6 +73,9 @@ map <Del> 0iif __name__ == "__main__":<Esc>omain()<CR><Esc>
 " Insert Java's 'System.out.println('
 map <leader>p oSystem.out.println(
 
+" Insert semicolon at the end of line
+map <leader>; A;<Esc>
+
 "GARBAGE#########################################################################
 
 " Indentation
