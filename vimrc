@@ -61,6 +61,18 @@ set directory=/home/slarty/.vim/swap
 
 "MAP#############################################################################
 
+" Write, quit, override in [command mode]
+map <F1> :wq!<CR>
+
+" Write, quit, override in [insert mode]
+imap <F1> <Esc>:wq!<CR>
+
+" Write current file, override in [command mode]
+map <F2> :w!
+
+" Write current file, override in [insert mode]
+imap <F2> <Esc>:w!
+
 " Creates basic C++ bone (like "Hello world" but without it)
 map <F2> i#include <iostream><CR><CR>using namespace std;<CR><CR>int main()<CR>{<CR><CR>return 0;<CR>}<CR><Esc>3ki<Esc>
 
