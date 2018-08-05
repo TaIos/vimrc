@@ -68,13 +68,13 @@ map <F1> :wq!<CR>
 imap <F1> <Esc>:wq!<CR>
 
 " Write current file, override in [command mode]
-map <F2> :w!
+map <F2> :w!<CR>
 
 " Write current file, override in [insert mode]
-imap <F2> <Esc>:w!
+imap <F2> <Esc>:w!<CR>
 
 " Creates basic C++ bone (like "Hello world" but without it)
-map <F2> i#include <iostream><CR><CR>using namespace std;<CR><CR>int main()<CR>{<CR><CR>return 0;<CR>}<CR><Esc>3ki<Esc>
+map <leader>c i#include <iostream><CR><CR>using namespace std;<CR><CR>int main()<CR>{<CR><CR>return 0;<CR>}<CR><Esc>3ki<Esc>
 
 " Insert python3 hash-bang
 map <Insert> ggO#!/bin/python3<CR><Esc>
