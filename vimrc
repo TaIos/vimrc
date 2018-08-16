@@ -52,10 +52,10 @@ set tabstop=4
 set backup
 
 " Directory to store backup files
-set backupdir=/home/slarty/.vim/backup
+set backupdir=/home/slarty/.vimrc_file/backup
 
 " Directory to store .swp and other files
-set directory=/home/slarty/.vim/swap
+set directory=/home/slarty/.vimrc_file/swap
 
 "MACROS##########################################################################
 
