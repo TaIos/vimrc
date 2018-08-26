@@ -51,11 +51,19 @@ set tabstop=4
 " Turn on file backups
 set backup
 
-" Directory to store backup files
-set backupdir=/home/slarty/.vimrc_file/backup
+" Directory to store backup files, with exist&create check
+let bk_file=$HOME.'/.vimrc_dir/backup'
+if !isdirectory(bk_file)
+	call mkdir(bk_file, 'p')
+endif
+let &backupdir=bk_file
 
-" Directory to store .swp and other files
-set directory=/home/slarty/.vimrc_file/swap
+" Directory to store .swp and other files, with exist$&create check
+let swp_file=$HOME.'/.vimrc_dir/swap'
+if !isdirectory(swp_file)
+	call mkdir(swp_file, 'p')
+endif
+let &directory=swp_file
 
 "MACROS##########################################################################
 
