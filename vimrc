@@ -49,7 +49,7 @@ set tabstop=4
 "BACKUP_FILES####################################################################
 
 " Turn on file backups
-set backup
+"set backup
 
 " Directory to store backup files, with exist&create check
 let bk_file=$HOME.'/.vimrc_dir/backup'
@@ -95,6 +95,9 @@ map <leader>p oSystem.out.println(
 
 " Insert semicolon at the end of line
 map <leader>; A;<Esc>
+
+" Insert timestamp variable
+map <leader>t oTIMESTAMP=$(date +%Y-%m-%d.%H%M)<Esc>j0
 
 "GARBAGE#########################################################################
 
